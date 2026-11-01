@@ -1,0 +1,18 @@
+# 本机配置与凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# 本地数据与临时产物
+local-data/
+private-data/
+tmp/
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# 仅适用于当前电脑的安装记录
+docs/工具安装与验证记录.md
